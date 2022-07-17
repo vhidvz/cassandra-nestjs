@@ -1,24 +1,17 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
+    "target": "es5",
+    "sourceMap": true,
+    "baseUrl": "./src",
     "declaration": true,
-    "noImplicitAny": false,
-    "removeComments": true,
-    "noLib": false,
+    "module": "commonjs",
+    "esModuleInterop": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "target": "es6",
-    "sourceMap": true,
-    "rootDir": "./lib",
+    "types": ["node", "jest"],
+    "removeComments": false,
     "outDir": "./dist",
-    "skipLibCheck": true
+    "strict": true
   },
-  "include": [
-    "lib/**/*",
-    "../index.ts"
-  ],
-  "exclude": [
-    "node_modules",
-    "**/*.spec.ts"
-  ]
+  "include": ["src/**/*"]
 }

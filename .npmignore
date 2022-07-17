@@ -1,9 +1,9 @@
-# source
-lib
-index.ts
-package-lock.json
+src
+docs
+.vscode
+coverage
+
 tslint.json
 tsconfig.json
-.prettierrc
-sample
-.github
+jest.config.ts
+.prettierrc.js
