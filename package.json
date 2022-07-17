@@ -1,6 +1,6 @@
 {
   "name": "cassandra-nestjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "NestJS Cassandra Module",
   "author": {
     "name": "Vahid V.",
