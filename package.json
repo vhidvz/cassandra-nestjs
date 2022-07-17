@@ -38,6 +38,7 @@
   "devDependencies": {
     "@nestjs/common": "^9.0.3",
     "@nestjs/core": "^9.0.3",
+    "@nestjs/testing": "^9.0.3",
     "@types/jest": "28.1.6",
     "@types/merge-deep": "^3.0.0",
     "@types/node": "18.0.5",

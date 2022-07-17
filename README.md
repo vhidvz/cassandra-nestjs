@@ -4,7 +4,7 @@ Express Cassandra utilities module for [NestJS](https://github.com/nestjs/nest) 
 ## Installation
 
 ```bash
-$ npm i --save @iaminfinity/cassandra
+$ npm i --save cassandra-nestjs
 ```
 ## Usage
 
@@ -463,4 +463,4 @@ export class PersonService {
 
 ## Thanks
 
-- Main Author - [Fahim Rahman](https://github.com/ifaim)
+- Author - [Fahim Rahman](https://github.com/ifaim)
